@@ -102,8 +102,9 @@ function clickHandler() {
         outPut.innerText = "yahhh yur birthday is a palindromee";
     } else {
       findNextPalindrome(date);
-      output.innerText = `Sorry, You missed it by ${ctr} days. The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`
+      outPut.innerText = `Sorry, You missed it by ${ctr} days. The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`
     }
 }
+
 
 btnshow.addEventListener("click", clickHandler);
