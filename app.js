@@ -99,10 +99,10 @@ function clickHandler() {
    var isPalindrome = checkPalindromeForAllDateFormats(date);
 
     if (isPalindrome) {
-        outPut.innerText = "yahhh yur birthday is a palindromee";
+        outPut.innerText = "yahhh your  birthday is a palindromee 🥰";
     } else {
       findNextPalindrome(date);
-      output.innerText = 'Your birthday is not a palindrome.'
+      output.innerText = ' sorry ! Your birthday is not a palindrome 🥺.'
     }
 }
 
