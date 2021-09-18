@@ -225,26 +225,14 @@ function clickHandler(e) {
         outPut.style.color="red";
       }
 
-<<<<<<< HEAD
     } else {
       outPut.innerText = ' congats !Your birthday is palindrome!';
       outPut.style.color="white";
 
       outPut.style.backgroundImage = "url('birthday.gif')";
    
-=======
-    if (isPalindrome) {
-        outPut.innerText = "yahhh your  birthday is a palindromee 🥰";
-    } else {
-      findNextPalindrome(date);
-      output.innerText = ' sorry ! Your birthday is not a palindrome 🥺.'
->>>>>>> 30d473eb5bbe6f4f544f024c61a919677ffec8a9
     }
   }
 }
 
-<<<<<<< HEAD
 showBtn.addEventListener('click', clickHandler);
-=======
-btnshow.addEventListener("click", clickHandler);
->>>>>>> 30d473eb5bbe6f4f544f024c61a919677ffec8a9
