@@ -5,11 +5,14 @@
   }
 
 :root {
-    --primary-color: #95c0f1;
+    --primary-color: #2b6db8;
   }
   main {
     text-align: center;
     margin: 3rem;
+  }
+  h1{
+    color:rgb(5, 68, 8);
   }
   
 .input-label {
@@ -40,6 +43,7 @@
   #output {
     font-size: x-large;
     margin: 2rem 0;
+    padding: 5rem;
   }
   .footer-container{
     
