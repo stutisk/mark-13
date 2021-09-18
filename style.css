@@ -28,6 +28,7 @@
     border-radius: 4px;
     display: block;
     margin: auto;
+      pointer:cursor;
   }
   #inputDate{
     font-size: 14px;
